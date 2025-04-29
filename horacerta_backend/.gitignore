@@ -1,0 +1,13 @@
+# compiled output
+/dist
+/node_modules
+
+# Logs
+logs
+*.log
+
+# Environment
+.env
+
+# Firebase
+src/config/serviceAccountKey.json
