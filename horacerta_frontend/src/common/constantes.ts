@@ -218,7 +218,7 @@ export const CONSTANTES = {
     SUBTITULO_DASHBOARD: 'Acompanhe suas horas trabalhadas',
 
     // -------------------------- PAGINA SOBRE --------------------------
-
+    TITULO_SOBRE_PUBLIC: 'Simplificando a gestão de ponto para você!',
     // ---- IMAGES ----
     IMAGE_SOBRE_01: 'https://images.unsplash.com/photo-1604010875146-2ac2a05fa359?q=80&w=3031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     IMAGE_SOBRE_02: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80',
@@ -226,11 +226,9 @@ export const CONSTANTES = {
     IMAGE_SOBRE_04: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80',
     IMAGE_SOBRE_05: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80',
     IMAGE_SOBRE_06: 'https://images.unsplash.com/photo-1465101178521-c1a9136a3fd9?auto=format&fit=crop&w=400&q=80',
-
     // ---- MISSAO ----
     TITULO_MISSAO: 'Nossa Missão',
-    DESCRICAO_MISSAO: 'O HoraCerta nasceu com o objetivo de revolucionar a forma como as empresas gerenciam o ponto de seus colaboradores. Nossa missão é simplificar processos, eliminar burocracias e trazer mais eficiência para a gestão de horas trabalhadas.',
-    
+    DESCRICAO_MISSAO: 'O HoraCerta nasceu com o objetivo de revolucionar a forma como as pessoas gerenciam o seu ponto. Nossa missão é simplificar processos, eliminar burocracias e trazer mais eficiência para a gestão de horas trabalhadas.',
     // ---- NOSSOS VALORES ----
     TITULO_NOSSOS_VALORES: 'Nossos Valores',
     // ITEM 01 - INOVACAO
@@ -245,11 +243,10 @@ export const CONSTANTES = {
     // ITEM 04 - EFICIENCIA
     TITULO_ITEM_04_NOSSOS_VALORES: 'Eficiência',
     DESCRICAO_ITEM_04_NOSSOS_VALORES: 'Nosso objetivo é otimizar processos e economizar tempo para empresas e colaboradores.',
-    
     // ---- NOSSA HISTORIA ----
     TITULO_NOSSA_HISTORIA: 'Nossa História',
-    DESCRICAO_NOSSA_HISTORIA: 'Fundada em 2024, o Hora Certa surgiu da necessidade de modernizar o sistema de registro de ponto tradicional. Percebemos que muitas empresas ainda utilizavam métodos arcaicos e burocráticos para gerenciar as horas trabalhadas de seus colaboradores, o que gerava perda de tempo e recursos. Com uma equipe apaixonada por tecnologia e inovação, desenvolvemos uma solução completa que atende às necessidades tanto das empresas quanto dos colaboradores, oferecendo uma plataforma moderna, segura e fácil de usar.',
-    
+    DESCRICAO_NOSSA_HISTORIA_01: 'Fundada em 2024, o Hora Certa surgiu da necessidade de modernizar o sistema de registro de ponto tradicional. Percebemos que muitas empresas ainda utilizavam métodos arcaicos e burocráticos para gerenciar as horas trabalhadas de seus colaboradores, o que gerava perda de tempo e recursos.',
+    DESCRICAO_NOSSA_HISTORIA_02: 'Com uma equipe apaixonada por tecnologia e inovação, desenvolvemos uma solução completa que atende às necessidades tanto das empresas quanto dos colaboradores, oferecendo uma plataforma moderna, segura e fácil de usar.',
     // ---- O QUE NOS DIFERENCIA ----
     TITULO_O_QUE_NOS_DIFERENCIA: 'O Que Nos Diferencia',
     // ITEM 01 - INTERFACE INTUITIVA
@@ -264,7 +261,6 @@ export const CONSTANTES = {
     // ITEM 04 - ATUALIZACOES CONSTANTES
     TITULO_ITEM_04_O_QUE_NOS_DIFERENCIA: 'Atualizações Constantes',
     DESCRICAO_ITEM_04_O_QUE_NOS_DIFERENCIA: 'Melhorias contínuas baseadas no feedback dos usuários.', 
-
     // ---- EQUIPE ----
     TITULO_EQUIPE: 'Nossa Equipe',
     DESCRICAO_EQUIPE: 'Contamos com uma equipe diversificada de profissionais apaixonados por tecnologia e inovação. Nossos desenvolvedores, designers e especialistas em RH trabalham juntos para criar a melhor experiência possível para nossos usuários.',
