@@ -8,37 +8,32 @@ const Footer = () => {
     empresa: {
       title: 'Empresa',
       links: [
-        { text: 'Sobre nós', href: '/sobre' },
-        { text: 'Carreiras', href: '/carreiras' },
-        { text: 'Segurança', href: '/seguranca' },
+        { text: 'Sobre', href: '/sobre' },
         { text: 'Status', href: '/status' },
-        { text: 'Termos & privacidade', href: '/termos' },
       ],
     },
-    download: {
-      title: 'Download',
+    legal: {
+      title: 'Legal',
       links: [
-        { text: 'iOS & Android', href: '/mobile' },
-        { text: 'Mac & Windows', href: '/desktop' },
-        { text: 'Web App', href: '/web' },
+        { text: 'Termos de Uso', href: '/termos' },
+        { text: 'Privacidade', href: '/privacidade' },
+        { text: 'Segurança', href: '/seguranca' },
       ],
     },
-    recursos: {
-      title: 'Recursos',
+    suporte: {
+      title: 'Suporte',
       links: [
         { text: 'Central de Ajuda', href: '/ajuda' },
-        { text: 'Preços', href: '/precos' },
-        { text: 'Blog', href: '/blog' },
         { text: 'Comunidade', href: '/comunidade' },
-        { text: 'Integrações', href: '/integracoes' },
+        { text: 'Blog', href: '/blog' },
       ],
     },
-    horaCerta: {
-      title: 'Hora Certa para',
+    produto: {
+      title: 'Produto',
       links: [
-        { text: 'Empresas', href: '/empresas' },
-        { text: 'Pequenos Negócios', href: '/pequenos-negocios' },
-        { text: 'Pessoal', href: '/pessoal' },
+        { text: 'Preços', href: '/precos' },
+        { text: 'Integrações', href: '/integracoes' },
+        { text: 'Download App', href: '/mobile' },
       ],
     },
   };

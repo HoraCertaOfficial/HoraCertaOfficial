@@ -1,10 +1,11 @@
+import React, { useState } from 'react';
 import { AiOutlineClockCircle, AiOutlineEdit, AiOutlineFileText, AiOutlineMobile, AiOutlineSafety, AiOutlineTeam, AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import AnimatedClock from '../../components/AnimatedClock/AnimatedClock';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CONSTANTES } from '../../common/constantes';
 import { Link } from 'react-router-dom';
+import DesktopMenu from '../../components/PublicMenu/DesktopMenu';
 import styles from './home.module.css';
-import { useState } from 'react';
 
 const LandingPage = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -22,13 +23,7 @@ const LandingPage = () => {
           {CONSTANTES.TITULO_SITE}
         </div>
         
-        {/* Menu Desktop */}
-        <div className={styles.navLinks}>
-          <Link className={styles.navLink} to={CONSTANTES.RECURSOS}>{CONSTANTES.TITULO_MENU_RECURSOS}</Link>
-          <Link className={styles.navLink} to={CONSTANTES.PRECOS}>{CONSTANTES.TITULO_MENU_PRECOS}</Link>
-          <Link className={styles.navLink} to={CONSTANTES.COMO_FUNCIONA}>{CONSTANTES.TITULO_MENU_COMO_FUNCIONA}</Link>
-          <Link className={styles.primaryButton} to={CONSTANTES.REGISTRO}>{CONSTANTES.BOTAO_COMECAR}</Link>
-        </div>
+        <DesktopMenu />
 
         {/* Menu Mobile */}
         <motion.button 
@@ -150,7 +145,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      <section className={styles.enterpriseSection}>
+      {/* <section className={styles.enterpriseSection}>
         <div className={styles.enterpriseContent}>
           <div>
             <h2 className={styles.sectionTitle}>{CONSTANTES.TITULO_EMPRESA}</h2>
@@ -159,7 +154,7 @@ const LandingPage = () => {
           </div>
           <div className={styles.enterpriseImage}>{CONSTANTES.ICONE_EMPRESA}</div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
