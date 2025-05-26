@@ -1,9 +1,10 @@
 import { AiOutlineClockCircle, AiOutlineCheckCircle, AiOutlineFileText, AiOutlineBarChart, AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import DesktopMenu from '../../components/PublicMenu/DesktopMenu';
 import { motion, AnimatePresence } from 'framer-motion';
+import { CONSTANTES } from '../../common/constantes';
 import styles from './comoFunciona.module.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import { CONSTANTES } from '../../common/constantes';
 
 const ComoFunciona = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -15,16 +16,7 @@ const ComoFunciona = () => {
   return (
     <div className={styles.container}>
       <nav className={styles.navbar}>
-        <div className={styles.logo}>
-          <AiOutlineClockCircle size={24} />{CONSTANTES.TITULO_SITE}</div>
-        
-        {/* Menu Desktop */}
-        <div className={styles.navLinks}>
-          <Link className={styles.navLink} to={CONSTANTES.RECURSOS}>{CONSTANTES.TITULO_MENU_RECURSOS}</Link>
-          <Link className={styles.navLink} to={CONSTANTES.PRECOS}>{CONSTANTES.TITULO_MENU_PRECOS}</Link>
-          <Link className={styles.navLink} to={CONSTANTES.HOME}>{CONSTANTES.TITULO_HOME}</Link>
-          <Link className={styles.primaryButton} to={CONSTANTES.REGISTRO}>{CONSTANTES.BOTAO_COMECAR}</Link>
-        </div>
+        <DesktopMenu />
 
         {/* Menu Mobile */}
         <motion.button 

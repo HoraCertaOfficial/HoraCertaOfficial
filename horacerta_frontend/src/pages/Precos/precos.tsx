@@ -1,4 +1,5 @@
-import { AiOutlineCheckCircle, AiOutlineClockCircle, AiOutlineInfoCircle, AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import { AiOutlineCheckCircle, AiOutlineInfoCircle, AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import DesktopMenu from '../../components/PublicMenu/DesktopMenu';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CONSTANTES } from '../../common/constantes';
 import styles from './precos.module.css';
@@ -15,15 +16,8 @@ const Precos = () => {
   return (
     <div className={styles.container}>
       <nav className={styles.navbar}>
-        <div className={styles.logo}><AiOutlineClockCircle size={24} />{CONSTANTES.TITULO_SITE}</div>
-        
         {/* Menu Desktop */}
-        <div className={styles.navLinks}>
-          <Link className={styles.navLink} to={CONSTANTES.COMO_FUNCIONA}>{CONSTANTES.TITULO_MENU_COMO_FUNCIONA}</Link>
-          <Link className={styles.navLink} to={CONSTANTES.RECURSOS}>{CONSTANTES.TITULO_MENU_RECURSOS}</Link>
-          <Link className={styles.navLink} to={CONSTANTES.HOME}>{CONSTANTES.TITULO_HOME}</Link>
-          <Link className={styles.primaryButton} to={CONSTANTES.REGISTRO}>{CONSTANTES.BOTAO_CADASTRAR_GRATUITAMENTE}</Link>
-        </div>
+        <DesktopMenu />
 
         {/* Menu Mobile */}
         <motion.button 
