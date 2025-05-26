@@ -71,10 +71,14 @@ const Sobre = () => {
           <div className={styles.heroContent}><h1 className={styles.subtitle}>{CONSTANTES.TITULO_SOBRE_PUBLIC}</h1></div>
         </section>
 
+        <hr className={styles.sectionDivider} />
+
         <section className={styles.sectionRow}>
           <img src={CONSTANTES.IMAGE_SOBRE_01}className={styles.sectionImage}/>
           <div className={styles.sectionText}><h2 className={styles.equipeTitulo}>{CONSTANTES.TITULO_MISSAO}</h2><p>{CONSTANTES.DESCRICAO_MISSAO}</p></div>
         </section>
+
+        <hr className={styles.sectionDivider} />
 
         <section className={styles.values}>
           <h2 className={styles.equipeTitulo}>{CONSTANTES.TITULO_NOSSOS_VALORES}</h2>
@@ -86,10 +90,14 @@ const Sobre = () => {
           </div>
         </section>
 
+        <hr className={styles.sectionDivider} />
+
         <section className={styles.sectionRowReverse}>
           <div className={styles.sectionText}> <h2 className={styles.equipeTitulo}>{CONSTANTES.TITULO_NOSSA_HISTORIA}</h2> <p>{CONSTANTES.DESCRICAO_NOSSA_HISTORIA_01}</p> <p>{CONSTANTES.DESCRICAO_NOSSA_HISTORIA_02}</p> </div>
           <img src={CONSTANTES.IMAGE_SOBRE_02} className={styles.sectionImage}/>
         </section>
+
+        <hr className={styles.sectionDivider} />
 
         <section className={styles.difference}>
           <h2 className={styles.equipeTitulo}>{CONSTANTES.TITULO_O_QUE_NOS_DIFERENCIA}</h2>
@@ -100,6 +108,8 @@ const Sobre = () => {
             <div className={styles.differenceTextCard}> <strong>{CONSTANTES.TITULO_ITEM_04_O_QUE_NOS_DIFERENCIA}</strong> <p>{CONSTANTES.DESCRICAO_ITEM_04_O_QUE_NOS_DIFERENCIA}</p></div>
           </div>
         </section>
+
+        <hr className={styles.sectionDivider} />
 
         <section className={styles.sectionRow}>
           <img src={CONSTANTES.IMAGE_SOBRE_03} className={styles.sectionImage}/>
