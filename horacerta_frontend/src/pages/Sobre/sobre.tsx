@@ -16,10 +16,7 @@ const Sobre = () => {
   return (
     <>
       <nav className={styles.navbar}>
-        <div className={styles.logo}>
-          <AiOutlineClockCircle size={24} />
-          {CONSTANTES.TITULO_SITE}
-        </div>
+        {/* Logo removido, agora está no DesktopMenu */}
         <MenuPublic />
         <motion.button 
           className={styles.mobileMenuButton}

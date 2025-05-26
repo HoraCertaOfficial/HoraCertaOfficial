@@ -36,4 +36,23 @@
   .navLinks {
     display: none;
   }
+}
+
+.desktopMenuWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #1e293b;
+  text-decoration: none;
+  white-space: nowrap;
 } 

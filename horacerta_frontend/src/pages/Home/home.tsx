@@ -18,11 +18,6 @@ const LandingPage = () => {
   return (
     <div className={styles.container}>
       <nav className={styles.navbar}>
-        <div className={styles.logo}>
-          <AiOutlineClockCircle size={24} />
-          {CONSTANTES.TITULO_SITE}
-        </div>
-        
         <DesktopMenu />
 
         {/* Menu Mobile */}
