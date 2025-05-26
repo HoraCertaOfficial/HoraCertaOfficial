@@ -1,5 +1,5 @@
-import { AiOutlineClockCircle, AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import MenuPublic from '../../components/PublicMenu/DesktopMenu';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CONSTANTES } from '../../common/constantes';
 import { Link } from 'react-router-dom';
