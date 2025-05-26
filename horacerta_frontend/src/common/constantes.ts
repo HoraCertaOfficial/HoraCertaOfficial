@@ -25,6 +25,11 @@ export const CONSTANTES = {
     TITULO_MENU_RECURSOS: 'Recursos',
     TITULO_MENU_PRECOS: 'Preços',
     TITULO_MENU_COMO_FUNCIONA: 'Como funciona',
+    TITULO_MENU_DASHBOARD: 'Dashboard',
+    TITULO_MENU_RELATORIOS: 'Relatórios',
+    TITULO_MENU_AJUSTES: 'Ajustes',
+    TITULO_MENU_HOME: 'Home',
+    
 
     // -------------------------- ROUTES --------------------------
     ROUTE_HOME: '/',
@@ -456,4 +461,14 @@ export const CONSTANTES = {
     TXT_POPUP_CONFIRMACAO_DESCRICAO: 'Caso o seu relógio de ponto esteja atrasado ou adiantado você pode alterar o horário.',
     TXT_POPUP_CONFIRMACAO_BOTAO_CANCELAR: 'Cancelar',
     TXT_POPUP_CONFIRMACAO_BOTAO_CONFIRMAR: 'Confirmar',
+
+
+    // -------------------------- PAGINA RELATORIOS --------------------------
+    TITULO_RELATORIOS: 'Relatórios',
+    SUBTITULO_RELATORIOS: 'Visualize seus registros de ponto',
+
+    // -------------------------- PAGINA AJUSTES --------------------------
+    TITULO_AJUSTES: 'Ajustes',
+    SUBTITULO_AJUSTES: 'Gerencie suas configurações e preferências',
+
 }   

@@ -374,7 +374,7 @@
 .team h2 {
   font-size: 2rem;
   color: #1e293b;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3.5rem;
   font-weight: 600;
 }
 
@@ -382,7 +382,7 @@
   font-size: 1.1rem;
   line-height: 1.6;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 2rem auto 0;
   color: #475569;
 }
 
@@ -429,6 +429,10 @@
   color: #1e293b;
   margin-bottom: 2rem;
   font-weight: 600;
+}
+
+.equipeTitulo {
+  margin-bottom: 3.5rem;
 }
 
 @media (max-width: 768px) {

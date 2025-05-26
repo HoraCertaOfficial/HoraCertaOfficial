@@ -73,11 +73,11 @@ const Sobre = () => {
 
         <section className={styles.sectionRow}>
           <img src={CONSTANTES.IMAGE_SOBRE_01}className={styles.sectionImage}/>
-          <div className={styles.sectionText}><h2>{CONSTANTES.TITULO_MISSAO}</h2><p>{CONSTANTES.DESCRICAO_MISSAO}</p></div>
+          <div className={styles.sectionText}><h2 className={styles.equipeTitulo}>{CONSTANTES.TITULO_MISSAO}</h2><p>{CONSTANTES.DESCRICAO_MISSAO}</p></div>
         </section>
 
         <section className={styles.values}>
-          <h2>{CONSTANTES.TITULO_O_QUE_NOS_DIFERENCIA}</h2>
+          <h2 className={styles.equipeTitulo}>{CONSTANTES.TITULO_NOSSOS_VALORES}</h2>
           <div className={styles.differenceGridTextOnly}>
             <div className={styles.differenceTextCard}> <strong>{CONSTANTES.TITULO_ITEM_01_NOSSOS_VALORES}</strong> <p>{CONSTANTES.DESCRICAO_ITEM_01_NOSSOS_VALORES}</p></div>
             <div className={styles.differenceTextCard}> <strong>{CONSTANTES.TITULO_ITEM_02_NOSSOS_VALORES}</strong> <p>{CONSTANTES.DESCRICAO_ITEM_02_NOSSOS_VALORES}</p></div>
@@ -87,12 +87,12 @@ const Sobre = () => {
         </section>
 
         <section className={styles.sectionRowReverse}>
-          <div className={styles.sectionText}> <h2>{CONSTANTES.TITULO_NOSSA_HISTORIA}</h2> <p>{CONSTANTES.DESCRICAO_NOSSA_HISTORIA_01}</p> <p>{CONSTANTES.DESCRICAO_NOSSA_HISTORIA_02}</p> </div>
+          <div className={styles.sectionText}> <h2 className={styles.equipeTitulo}>{CONSTANTES.TITULO_NOSSA_HISTORIA}</h2> <p>{CONSTANTES.DESCRICAO_NOSSA_HISTORIA_01}</p> <p>{CONSTANTES.DESCRICAO_NOSSA_HISTORIA_02}</p> </div>
           <img src={CONSTANTES.IMAGE_SOBRE_02} className={styles.sectionImage}/>
         </section>
 
         <section className={styles.difference}>
-          <h2>{CONSTANTES.TITULO_O_QUE_NOS_DIFERENCIA}</h2>
+          <h2 className={styles.equipeTitulo}>{CONSTANTES.TITULO_O_QUE_NOS_DIFERENCIA}</h2>
           <div className={styles.differenceGridTextOnly}>
             <div className={styles.differenceTextCard}> <strong>{CONSTANTES.TITULO_ITEM_01_O_QUE_NOS_DIFERENCIA}</strong> <p>{CONSTANTES.DESCRICAO_ITEM_01_O_QUE_NOS_DIFERENCIA}</p></div>  
             <div className={styles.differenceTextCard}> <strong>{CONSTANTES.TITULO_ITEM_02_O_QUE_NOS_DIFERENCIA}</strong> <p>{CONSTANTES.DESCRICAO_ITEM_02_O_QUE_NOS_DIFERENCIA}</p></div>
@@ -103,7 +103,7 @@ const Sobre = () => {
 
         <section className={styles.sectionRow}>
           <img src={CONSTANTES.IMAGE_SOBRE_03} className={styles.sectionImage}/>
-          <div className={styles.sectionText}> <h2>{CONSTANTES.TITULO_EQUIPE}</h2> <p>{CONSTANTES.DESCRICAO_EQUIPE}</p></div>
+          <div className={styles.sectionText}> <h2 className={styles.equipeTitulo}>{CONSTANTES.TITULO_EQUIPE}</h2> <p>{CONSTANTES.DESCRICAO_EQUIPE}</p></div>
         </section>
       </div>
     </>
